@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import logo
-import Logo from '../assets/img/logo-white.svg';
+import Logo from '../assets/img/logo.png';
 
 // import data
 import { social } from '../data';

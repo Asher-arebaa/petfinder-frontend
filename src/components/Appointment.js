@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import image
-import DogImg from '.../assets/img/dog/dog-appointment.jpeg';
+import DogImg from '../assets/dogs/dog-appointment.png';
 
 const Appointment = () => {
   return (

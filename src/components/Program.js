@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import icons
-import PhoneIcon from '../assets/img/phone.svg';
+import PhoneIcon from '../assets/img/phone.png';
 
 const Program = () => {
   return (

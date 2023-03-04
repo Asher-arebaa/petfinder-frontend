@@ -1,7 +1,7 @@
 import React from 'react';
 
 // import image
-import DogImg from '../assets/img/dogs/dog-contact.png';
+import DogImg from '../assets/dogs/dog-contact.png';
 
 const Contact = () => {
   return (
