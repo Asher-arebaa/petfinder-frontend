@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 
 // import logo
-import Logo from '../assets/img/logo.svg';
+import Logo from '.../logo';
 
 // import icons
 import { CgMenuRight } from 'react-icons/cg';
 
 // import components
 import Program from './Program';
-import Nav from './Nav';
+import Nav from '../Nav';
 import NavMobile from './NavMobile';
 
 const Header = () => {
