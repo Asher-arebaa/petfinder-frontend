@@ -16,7 +16,7 @@ const Contact = () => {
           <div className='flex flex-col items-center justify-center'>
             <div className='text-orange font-semibold mb-3'>Contact</div>
             <div className='text-4xl text-blue font-extrabold'>
-              + 1 000 10 84 000
+              0722222222
             </div>
             <div className='mb-7 text-blue'>
               Opening Hours: Mon - Sun: 10am - 6pm

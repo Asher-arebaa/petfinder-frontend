@@ -8,7 +8,7 @@ import DogCateg2 from './assets/dogs/dog-categ-2.png';
 import DogCateg3 from './assets/dogs/dog-categ-3.png';
 import DogCateg4 from './assets/dogs/dog-categ-4.png';
 // import social icons
-import { AiFillYoutube, AiFillInstagram, AiFillGithub } from 'react-icons/ai';
+import { AiFillInstagram  } from 'react-icons/ai';
 
 export const navigation = [
   {
@@ -24,7 +24,7 @@ export const navigation = [
     href: '#',
   },
   {
-    name: 'get an appointment',
+    name: 'book an appointment',
     href: '#',
   },
 ];
@@ -36,7 +36,7 @@ export const heroSlider = [
     image: <HeroSlideImage1 />,
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
-    buttonText: 'Get an appointment',
+    buttonText: 'Book appointment',
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ export const heroSlider = [
     image: <HeroSlideImage2 />,
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
-    buttonText: 'Get an appointment',
+    buttonText: 'Book an appointment',
   },
   {
     id: 3,
@@ -52,7 +52,7 @@ export const heroSlider = [
     image: <HeroSlideImage3 />,
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',
-    buttonText: 'Get an appointment',
+    buttonText: 'Book an appointment',
   },
 ];
 
@@ -64,15 +64,15 @@ export const bundleData = [
     dogCategory: '1 - 9 kg',
     services: [
       {
-        name: 'smart',
-        price: 20,
-        list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
+        name: 'standard',
+        price: 200,
+        list: ['washing'],
       },
       {
         name: 'premium',
-        price: 40,
+        price: 400,
         list: [
-          'all smart services',
+          'all standard services',
           'service 1',
           'service 2',
           'service 3',
@@ -80,8 +80,8 @@ export const bundleData = [
         ],
       },
       {
-        name: 'royal',
-        price: 60,
+        name: '',
+        price: 600,
         list: [
           'all premium services',
           'service 1',
@@ -101,15 +101,15 @@ export const bundleData = [
     dogCategory: '10 - 19 kg',
     services: [
       {
-        name: 'smart',
-        price: 80,
+        name: 'standard',
+        price: 800,
         list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
       },
       {
         name: 'premium',
-        price: 100,
+        price: 1000,
         list: [
-          'all smart services',
+          'all standard services',
           'service 1',
           'service 2',
           'service 3',
@@ -118,7 +118,7 @@ export const bundleData = [
       },
       {
         name: 'royal',
-        price: 120,
+        price: 1200,
         list: [
           'all premium services',
           'service 1',
@@ -138,15 +138,15 @@ export const bundleData = [
     dogCategory: '20 - 29 kg',
     services: [
       {
-        name: 'smart',
-        price: 140,
-        list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
+        name: 'standard',
+        price: 1400,
+        list: ['wash'],
       },
       {
         name: 'premium',
-        price: 160,
+        price: 1600,
         list: [
-          'all smart services',
+          'all standard services',
           'service 1',
           'service 2',
           'service 3',
@@ -155,7 +155,7 @@ export const bundleData = [
       },
       {
         name: 'royal',
-        price: 180,
+        price: 1800,
         list: [
           'all premium services',
           'service 1',
@@ -175,15 +175,15 @@ export const bundleData = [
     dogCategory: '30 - 39 kg',
     services: [
       {
-        name: 'smart',
-        price: 200,
-        list: ['wash', 'ears cleaning', 'nail cut', 'perfumed'],
+        name: 'standard',
+        price: 2000,
+        list: ['wash'],
       },
       {
         name: 'premium',
-        price: 210,
+        price: 2100,
         list: [
-          'all smart services',
+          'all standard services',
           'service 1',
           'service 2',
           'service 3',
@@ -192,7 +192,7 @@ export const bundleData = [
       },
       {
         name: 'royal',
-        price: 220,
+        price: 2200,
         list: [
           'all premium services',
           'service 1',
@@ -208,16 +208,8 @@ export const bundleData = [
 ];
 
 export const social = [
-  {
-    icon: <AiFillYoutube />,
-    href: '#',
-  },
-  {
+   {
     icon: <AiFillInstagram />,
     href: '#',
-  },
-  {
-    icon: <AiFillGithub />,
-    href: '#',
-  },
+  }
 ];
