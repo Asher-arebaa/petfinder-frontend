@@ -32,7 +32,7 @@ export const navigation = [
 export const heroSlider = [
   {
     id: 1,
-    title: 'We take care of your pet.',
+    title: 'Lorem ipsum',
     image: <HeroSlideImage1 />,
     subtitle:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc odio in et, lectus sit lorem id integer.',

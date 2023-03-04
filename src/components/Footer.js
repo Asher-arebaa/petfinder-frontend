@@ -15,7 +15,7 @@ const Footer = () => {
             <img src={Logo} alt='' />
           </a>
           <div className='text-[15px]'>
-            &copy; Copyright 2022. All rights reserved.
+            &copy; THANK YOU!!
           </div>
           <div className='flex gap-x-4'>
             {social.map((item, index) => {

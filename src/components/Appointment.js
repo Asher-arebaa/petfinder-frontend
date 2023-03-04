@@ -14,7 +14,7 @@ const Appointment = () => {
           </div>
           {/* form */}
           <form className='bg-yellow w-full max-w-[790px] h-[500px] mx-auto lg:-mt-5 rounded-[60px] py-8 px-6 text-center flex flex-col justify-start items-center gap-y-4'>
-            <h2 className='h2 my-4'>Get an appointment</h2>
+            <h2 className='h2 my-4'>Book an appointment</h2>
             <input
               className='input-control'
               type='text'
@@ -30,7 +30,7 @@ const Appointment = () => {
               type='text'
               placeholder='Phone number'
             />
-            <button className='btn w-full max-w-[514px]'>Send</button>
+            <button className='btn w-full max-w-[514px]'>Book</button>
           </form>
         </div>
       </div>

@@ -13,14 +13,14 @@ const Program = () => {
           alt=''
         />
         <div className='lg:text-[23px] text-blue font-extrabold'>
-          + 1 000 10 84 000
+          0722222222
         </div>
       </div>
       <div className='text-sm'>
         <div className='hidden lg:flex'>
-          Opening Hours: Mon - Sun: 10am - 6pm
+          Opening Hours: Mon - Fri: 10am - 6pm
         </div>
-        <div className='lg:hidden text-right'>Mon - Sun: 10am - 6pm</div>
+        <div className='lg:hidden text-right'>Sat - Sun: 10am - 4pm</div>
       </div>
     </div>
   );

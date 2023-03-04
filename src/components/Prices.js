@@ -26,8 +26,8 @@ const Prices = () => {
       <div className='container mx-auto'>
         <div className='text-center mb-20'>
           <div className='text-orange font-semibold mb-3'>Our Prices</div>
-          <h2 className='h2 mb-3'>How Big Your Dog is?</h2>
-          <p className='text-lg text-blue'>Choose your dog category</p>
+          <h2 className='h2 mb-3'>Dog size</h2>
+          <p className='text-lg text-blue'>Dog category</p>
         </div>
         {/* bundles */}
         <div className='grid grid-cols-4 gap-4 lg:gap-[30px]'>

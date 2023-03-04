@@ -21,7 +21,7 @@ const Contact = () => {
             <div className='mb-7 text-blue'>
               Opening Hours: Mon - Sun: 10am - 6pm
             </div>
-            <button className='btn'>Get an appointment</button>
+            <button className='btn'>Book an appointment</button>
           </div>
         </div>
       </div>
